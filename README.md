@@ -11,9 +11,10 @@ npm install parental-rating
 ### compare(ratingA, ratingB)
 
 > Compare two profile ratings together.
-> Returns `<0` if a is a lower rating then b.
-> Returns `0` if a is equal to b.
-> Returns `>0` if a is a greater rating then b.
+
+- Returns `<0` if a is a lower rating then b.
+- Returns `0` if a is equal to b.
+- Returns `>0` if a is a greater rating then b.
 
 ``` javascript
 import {compare} from 'parental-rating';
